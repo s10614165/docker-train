@@ -10,6 +10,10 @@
   justify-content: start;
 }
 
+.jcfe {
+  justify-content: flex-end;
+}
+
 .fdr {
   flex-direction: row;
 }
@@ -48,6 +52,10 @@
 
 .acc {
   align-content: center;
+}
+
+.aife {
+  align-items: flex-end;
 }
 
 .ffrw {
@@ -186,7 +194,8 @@
 .bn {
   color: #56c4c5;
 }
-.swg{
+
+.swg {
   color: #3F5D45;
 }
 
@@ -194,6 +203,6 @@
   color: #FFFFFF;
 }
 
-.-dn{
+.-dn {
   display: none;
 }
