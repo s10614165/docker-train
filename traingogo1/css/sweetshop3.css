@@ -1,0 +1,434 @@
+.header {
+  max-width: 94%;
+  padding-top: 33px;
+  position: relative;
+}
+
+.headerbanner-wrap {
+  max-width: 1024px;
+}
+
+.header-logonavcontainer {
+  width: 95%;
+}
+
+.header-imgcontainer>.pclogo-img {
+  display: inline-block;
+  min-width: 210px;
+}
+
+.header-navcontainer {
+  padding-bottom: 0px;
+  align-items: center;
+}
+
+.header-navcontainer>.h6 {
+  margin-right: 60px;
+}
+
+.shopcart-img {
+  display: inline-block;
+  position: absolute;
+  bottom: 12%;
+  right: 0px;
+  width: 24px;
+  height: 24px;
+}
+
+
+/* !-------header area-----------! */
+.banner {
+  max-width: 94%;
+  margin-top: 33px;
+  padding-top: 50%;
+  background: url('https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/student-week1/banner.png')no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
+/* !-------banner area----------- ! */
+
+
+.footer {
+  width: 100%;
+
+}
+
+
+
+.subcontainer {
+  width: 100%;
+  background-color: #3F5D45;
+}
+
+.subontainerwarp {
+  width: 80%;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.subtext {
+  width: 50%;
+  margin: 41px 0px;
+}
+
+.subtext>.h3 {
+  margin-left: 20px;
+}
+
+.emailtext {
+  width: 50%;
+  position: relative;
+
+}
+
+.mail-img {
+  background: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/student-week1/mail-24px.png")no-repeat;
+  background-position: center left;
+  background-size: 25px 25px;
+  height: 56px;
+  width: 100%;
+  background-color: #EAF0ED;
+  display: block;
+  box-sizing: border-box;
+  border: 0px;
+  text-indent: 10%;
+  outline: 0;
+
+}
+
+.emailcontainer {
+  width: 100%;
+  height: 56px;
+  margin-right: 10px;
+
+
+}
+
+.arrow {
+  box-sizing: border-box;
+  background-color: #FFE180;
+  width: 64px;
+  height: 56px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.subtext>span {
+  color: #EAF0ED;
+}
+
+.logoimg {
+  width: 40px;
+  height: 40px;
+}
+
+.infologo-img {
+  width: 171px;
+  height: 27px;
+}
+
+.icon-img {
+  width: 32px;
+  height: 32px;
+}
+
+.text-area {
+  margin: 101px 0 30px 0;
+}
+
+.infocontainer {
+  background-color: #EAF0ED;
+  width: 100%;
+  padding: 40px 0px 30px 0px;
+
+}
+
+.info-text {
+  width: 30%;
+}
+
+.info-vertical {
+
+  width: 70%;
+}
+
+.infowrap {
+  width: 80%;
+  max-width: 1024px;
+
+}
+
+.infovertical-img {
+  width: 59px;
+  height: 219px;
+  margin-top: -20px;
+}
+
+/* !-----footer area */
+.loginaccount-wrap {
+  width: 100%;
+  margin: 40px auto 60px auto;
+  max-width: 780px;
+}
+
+.login {
+  background-color: #3F5D45;
+  width: 50%;
+}
+
+.login .h2 {
+  margin-top: 40px;
+}
+
+.login a {
+  display: block;
+  background-color: #FFE180;
+  border: 1px solid #FFE180;
+  padding: 16px 100px;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-size: 24px;
+  text-align: center;
+  color: #3F5D45;
+  font-weight: bold;
+}
+
+.login-container {
+  margin-top: 40px;
+  margin-bottom: 22px;
+}
+
+.login>.h2 {
+  color: #EAF0ED;
+}
+
+.login-container {
+  max-width: 330px;
+
+
+
+
+}
+
+.input-field {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 16px 0px;
+}
+
+.input-field input {
+  padding: 10px 0px 10px 64px;
+  background-color: #EAF0ED;
+  height: 100%;
+  max-width: 330px;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 16px;
+  outline: none;
+  border: none;
+
+}
+
+.input-field i {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+  font-size: 24px;
+  color: #3F5D45;
+}
+
+.account {
+  width: 50%;
+
+  background-color: #EAF0ED;
+}
+
+.account>.h3 {
+
+  margin: 40px auto;
+}
+
+.account-container {
+  width: 80%;
+  margin: 40px auto;
+}
+
+.accountlist {
+  margin: 40px auto;
+
+}
+
+.accountlist ul {
+  width: 100%;
+
+}
+
+.accountlist ul li {
+  margin-top: 16px;
+  width: 100%;
+}
+
+.accountlist ul li a {
+  display: block;
+  /* padding: 17px 100px; */
+  width: 100%;
+  height: 56px;
+  box-sizing: border-box;
+  background-color: #FFFFFF;
+
+  /* 疑惑這裡怎麼寫比較好，目前因為圖片大小不一，故雖然conainter的尺寸相同 但位置會顯得高低不一 */
+
+}
+
+.accountlist ul li a img {
+  height: 100%;
+  display: block;
+  max-width: 110px;
+  margin: 0px auto;
+
+  /* margin: auto auto; */
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:375px) {
+  .header {
+    max-width: 100%;
+  }
+
+  .mlogo-img {
+    display: inline-block;
+    min-width: 114px;
+  }
+
+  .header-imgcontainer>.pclogo-img {
+    display: none;
+  }
+
+  .header-navcontainer {
+    order: 1;
+  }
+
+  .header-imgcontainer {
+    order: 2;
+  }
+
+  .header-navcontainer>.h6 {
+    display: none;
+  }
+
+  .header-navcontainer>.nav-dehaze {
+    display: inline-block;
+    min-width: 18px;
+    height: 12pt;
+  }
+
+  .header-logonavcontainer {
+    width: 69%;
+  }
+
+  .shopcart-img {
+    bottom: 0px;
+    right: 0px;
+  }
+
+  /* !-------header area-----------! */
+  /* footer */
+
+  .subontainerwarp {
+    flex-direction: column;
+
+  }
+
+  .subtext {
+    width: 100%;
+
+  }
+
+  .emailtext {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .infovertical-img {
+    display: none;
+  }
+
+  .info-vertical {}
+
+  .info-text {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+
+  /* footer */
+  .login {
+    width: 100%;
+    order: 3;
+  }
+
+  .account {
+    width: 100%;
+    order: 2;
+  }
+
+  .login>.h2 {
+    display: none;
+  }
+
+  .m-title {
+    color: #EAF0ED;
+    font-size: 32px;
+    display: block;
+    order: 1;
+    background-color: #3F5D45;
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+
+  }
+
+  .account-container>.h3 {
+
+    display: none;
+  }
+
+
+
+  .accountlist ul li {
+    display: inline-block;
+    width: 31%;
+
+  }
+
+  .accountlist ul li a {
+    padding: 10px 16px;
+    width: 100%;
+
+
+  }
+
+
+
+  .loginaccount-wrap {
+    margin: 30px 0 0 0;
+  }
+
+
+
+
+
+
+}
