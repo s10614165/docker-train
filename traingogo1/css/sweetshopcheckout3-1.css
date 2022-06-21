@@ -587,9 +587,9 @@
     margin: 36px 0 0;
   }
 
-  .diliver-circle li:nth-child(2)::before {
+  .diliver-circle li:nth-child(3)::before {
 
     top: 47%;
-    left: 41%;
+    left: 81.3%;
   }
 }
