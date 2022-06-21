@@ -149,13 +149,16 @@
 /* !-----footer area */
 
 .check-wrap {
-    width: 76%;
+    width: 80%;
     margin: 60px auto;
+    max-width: 990px;
 }
 
 .diliver-contain {
     width: 60%;
     background-color: #3F5D45;
+    box-sizing: border-box;
+    height: 100%;
 }
 
 .diliver-title {
@@ -164,7 +167,7 @@
 }
 
 .info-contain {
-    width: 39%;
+    width: 300px;
 }
 
 .diliver-title .h2 {
@@ -189,6 +192,7 @@
     height: 1px;
     position: absolute;
     top: 70%;
+
     width: 100%;
 }
 
@@ -228,7 +232,7 @@
 .billcontainer {
     width: 100%;
     max-width: 300px;
-    background-color: #3F5D45;
+
 }
 
 .cart-title {
@@ -240,10 +244,9 @@
 }
 
 .cart-contnet {
-    margin-bottom: 10px;
-    border-bottom: 1px solid #EAF0ED;
-    ;
+    margin: 10px auto;
     padding-bottom: 20px;
+    width: 80%;
 }
 
 .cart-contnet:nth-last-child(1) {
@@ -261,7 +264,7 @@
 }
 
 .cartinfo-text {
-    color: #3F5D45;
+    color: #8DA291;
     line-height: 20px;
 }
 
@@ -299,20 +302,26 @@
 }
 
 .billcontainer {
-    height: 195px
+    height: auto;
+    border: 1px solid #EAF0ED;
+    margin-bottom: 20px;
+    padding: 0 0 16px 0;
 }
 
 .billcontainer>.h4 {
-    color: #EAF0ED;
+    color: #8DA291;
     padding: 16px 0px;
     text-align: center;
+    background-color: #EAF0ED;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .bill-text {
     border-top: 1px solid white;
     width: 80%;
     margin: 0 auto;
-    color: #EAF0ED;
+    color: #8DA291;
     padding-top: 10px;
 }
 
@@ -339,19 +348,21 @@
 }
 
 .diliver-form .d-firstname {
-    width: 45%;
+    width: 46%;
     margin: 8px 0px;
     height: 56px;
     background-color: #EAF0ED;
     padding-left: 8px;
+    box-sizing: border-box;
 }
 
 .diliver-form .d-name {
-    width: 45%;
-    margin: 8px 0px;
+    width: 52%;
+    margin: 10px 0px;
     height: 56px;
     background-color: #EAF0ED;
     padding-left: 8px;
+    box-sizing: border-box;
 }
 
 .d-tel {
@@ -360,28 +371,31 @@
     background-color: #EAF0ED;
     box-sizing: border-box;
     padding-left: 8px;
-    margin-bottom: 16px;
+    margin: 15px 0px;
 }
 
 .diliver-form .d-place {
     display: block;
     width: 100%;
+    box-sizing: border-box;
 }
 
 .diliver-form .d-city {
-    width: 49%;
+    width: 45%;
     margin: 8px 0px;
     height: 56px;
     background-color: #EAF0ED;
     padding-left: 8px;
+    box-sizing: border-box;
 }
 
 .diliver-form .d-road {
-    width: 49%;
+    width: 52%;
     margin: 8px 0px;
     height: 56px;
     background-color: #EAF0ED;
     padding-left: 8px;
+    box-sizing: border-box;
 }
 
 .diliver-form .d-side {
@@ -393,56 +407,107 @@
     box-sizing: border-box;
 }
 
+.d-order {
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    background-color: #FFE180;
+    padding: 19px 0px;
+    color: #3F5D45;
+}
+
+.buy-list {
+    border: 1px solid #EAF0ED;
+    max-width: 300px;
+}
+
+.b-listtitle {
+    background-color: #EAF0ED;
+    text-align: center;
+    padding: 16px 0px;
+    font-size: 24px;
+    color: #8DA291;
+
+}
+
 @media (max-width:375px) {
     .header {
         max-width: 100%;
     }
+
     .mlogo-img {
         display: inline-block;
         min-width: 114px;
     }
+
     .header-imgcontainer>.pclogo-img {
         display: none;
     }
+
     .header-navcontainer {
         order: 1;
     }
+
     .header-imgcontainer {
         order: 2;
     }
+
     .header-navcontainer>.h6 {
         display: none;
     }
+
     .header-navcontainer>.nav-dehaze {
         display: inline-block;
         min-width: 18px;
         height: 12pt;
     }
+
     .header-logonavcontainer {
         width: 69%;
     }
+
     .shopcart-img {
         bottom: 0px;
         right: 0px;
     }
+
     /* !-------header area-----------! */
     /* footer */
     .subontainerwarp {
         flex-direction: column;
     }
+
     .subtext {
         width: 100%;
     }
+
     .emailtext {
         width: 100%;
         margin-bottom: 30px;
     }
+
     .infovertical-img {
         display: none;
     }
+
     .info-text {
         width: 100%;
         margin-bottom: 20px;
     }
+
     /* footer */
+
+    .info-contain {
+        display: none;
+    }
+
+    .diliver-contain {
+        width: 100%;
+    }
+
+    .check-wrap {
+        width: 100%;
+    }
 }
