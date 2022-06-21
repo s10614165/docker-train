@@ -35,6 +35,16 @@
     height: 24px;
 }
 
+.header-navcontainer a {
+    text-decoration: none;
+}
+
+.header-navcontainer {
+    padding-bottom: 0px;
+    align-items: center;
+    width: 30%;
+}
+
 
 /* !-------header area-----------! */
 
@@ -471,6 +481,22 @@
     .shopcart-img {
         bottom: 0px;
         right: 0px;
+    }
+
+    .header-navcontainer a {
+        display: none;
+    }
+
+    .header-navcontainer a:last-child {
+        display: inline-block;
+        min-width: 18px;
+        height: 12pt;
+    }
+
+    .header-navcontainer a:last-child img {
+        display: inline-block;
+        min-width: 18px;
+        height: 12pt;
     }
 
     /* !-------header area-----------! */

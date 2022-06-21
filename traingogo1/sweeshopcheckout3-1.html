@@ -8,7 +8,7 @@
   <title>Document</title>
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/useful.css">
-  <link rel="stylesheet" href="css/sweetshopcheckout2.css">
+  <link rel="stylesheet" href="css/sweetshopcheckout3-1.css">
   <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
@@ -24,54 +24,44 @@
             src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/student-week1/logo-all-dark.svg"
             alt="" class="pclogo-img" />
         </div>
-        <nav class="header-navcontainer df jcsa">
-          <a href="sweetshop1.html"><span class="h6 swg fwb">首頁</span></a>
-          <a href="sweeshop2.html"><span class="h6 swg fwb">甜點</span></a>
-          <a href="sweeshop3.html"><span class="h6 swg fwb">登入</span></a>
-          <a href="sweeshop4.html" class=".nav-dehaze"><img
-              src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/student-week1/dehaze-24px.png"
-              alt="" class="-dn"></a>
+        <nav class="header-navcontainer df">
+          <span class="h6 swg fwb">首頁</span>
+          <span class="h6 swg fwb">甜點</span>
+          <span class="h6 swg fwb">登入</span>
+          <a href="sweeshop4.html"><img
+              src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/student-week1/shopping_cart.png"
+              alt="" class="shopcart-img"></a>
 
         </nav>
       </div>
-      <a href="sweeshop4.html"><img
-          src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/student-week1/shopping_cart.png"
-          alt="" class="shopcart-img"></a>
+      <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/student-week1/shopping_cart.png"
+        alt="" class="shopcart-img">
     </header>
   </div>
 
   <div class="check-wrap df fdr fww jcsa">
     <div class="diliver-contain">
       <div class="diliver-title df fdr jcsb">
-        <h1 class="h2">運送
+        <h1 class="h2">發票
         </h1>
         <ul class="diliver-circle ">
           <li><i class='bx bxs-check-circle'></i></li>
-          <li></li>
+          <li><i class='bx bxs-check-circle'></i></li>
           <li></li>
         </ul>
       </div>
+      <div class="diliver-bill df jcc fdr">
+        <a href="">電子發票</a>
+        <a href="">郵寄發票</a>
+      </div>
       <form action="" class="diliver-form">
-        <label for="">信用卡卡號</label>
-        <input type="tel" placeholder="9012-3456-7890-1234" class="d-tel">
-        <i class='bx bx-credit-card'></i>
-        <label for="">持卡人姓名</label>
+        <label for="">電子郵件信箱</label>
+        <input type="email" placeholder="example@email.com" class="d-mail">
 
-        <input type="text" placeholder="王" class="d-firstname">
+        <label for="">統一編號（選填）</label>
+        <input type="text" placeholder="12345678" class="d-mail">
 
-        <input type="text" placeholder="小明" class="d-name">
 
-        <label for="" class="d-place">有效期限</label>
-        <select name="'城市" id="city" class="d-city">
-          <option value="">月</option>
-          <option value="">2</option>
-          <option value="">3</option>
-        </select>
-        <select name="" id=" " class="d-road">
-          <option value="新興區">年</option>
-        </select>
-        <label for="">背面末三碼</label>
-        <input type="text" placeholder="123" class="d-side">
       </form>
       <a href="" class="d-order">下一步</a>
     </div>

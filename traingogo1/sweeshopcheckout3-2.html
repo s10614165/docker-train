@@ -8,7 +8,7 @@
   <title>Document</title>
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/useful.css">
-  <link rel="stylesheet" href="css/sweetshop4.css">
+  <link rel="stylesheet" href="css/sweetshopcheckout3-2.css">
   <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
@@ -39,82 +39,104 @@
           alt="" class="shopcart-img"></a>
     </header>
   </div>
-  <div class="checkout-wrap df fdr fww jcsa">
-    <div class="cartcontainer df fdc ">
-      <div class="cart-title tac">
-        <h4 class="h4">您的購物車</h4>
-      </div>
-      <div class="cart-contnet df fdr jcsb aic">
-        <img src="https://bit.ly/2QvsT63" alt="cake.png">
-        <div class="cart-info df fdr jcsa">
-          <div class="cartinfo-text">
-            <h3 class="h6">焦糖馬卡龍</h3>
-            <h3 class="h6">NT$ 450</h3>
-          </div>
-          <div class="info-count df fdr ">
-            <a href="" class="">-</a>
-            <span>2</span>
-            <a href="">+</a>
-          </div>
 
-        </div>
-        <div class="info-price df fdr jcc aic">
-          <span>NT$ 900</span>
-          <i class='bx bx-trash-alt'></i>
-        </div>
+  <div class="check-wrap df fdr fww jcsa">
+    <div class="diliver-contain">
+      <div class="diliver-title df fdr jcsb">
+        <h1 class="h2">發票
+        </h1>
+        <ul class="diliver-circle ">
+          <li><i class='bx bxs-check-circle'></i></li>
+          <li><i class='bx bxs-check-circle'></i></li>
+          <li></li>
+        </ul>
       </div>
-      <div class="cart-contnet df fdr jcsb aic">
-        <img src="https://bit.ly/2zBDAxX" alt="cake.png">
-        <div class="cart-info df fdr jcsa">
-          <div class="cartinfo-text">
-            <h3 class="h6">焦糖馬卡龍</h3>
-            <h3 class="h6">NT$ 450</h3>
-          </div>
-          <div class="info-count df fdr ">
-            <a href="" class="">-</a>
-            <span>2</span>
-            <a href="">+</a>
-          </div>
+      <div class="diliver-bill df jcc fdr">
+        <a href="">電子發票</a>
+        <a href="">郵寄發票</a>
+      </div>
+      <form action="" class="diliver-form">
 
-        </div>
-        <div class="info-price df fdr jcc aic">
-          <span>NT$ 900</span>
-          <i class='bx bx-trash-alt'></i>
-        </div>
-      </div>
-      <div class="cart-contnet df fdr jcsb aic">
-        <img src="https://bit.ly/2zKOP7w" alt="cake.png">
-        <div class="cart-info df fdr jcsa">
-          <div class="cartinfo-text">
-            <h3 class="h6">焦糖馬卡龍</h3>
-            <h3 class="h6">NT$ 450</h3>
-          </div>
-          <div class="info-count df fdr ">
-            <a href="" class="">-</a>
-            <span>2</span>
-            <a href="">+</a>
-          </div>
 
-        </div>
-        <div class="info-price df fdr jcc aic">
-          <span>NT$ 900</span>
-          <i class='bx bx-trash-alt'></i>
-        </div>
-      </div>
+
+
+        <label for="" class="d-place">地址</label>
+        <input type="checkbox" name="" id="" class="d-checkbox">
+        <label for="" class="d-same">同運送地址</label>
+        <select name="'城市" id="city" class="d-city">
+          <option value="高雄市">高雄市</option>
+          <option value="台中市">台中市</option>
+          <option value="台北市">台北市</option>
+        </select>
+        <select name="" id=" " class="d-road">
+          <option value="新興區">新興區</option>
+        </select>
+        <input type="text" placeholder="幸福路 520 號" class="d-side">
+        <label for="">統一編號（選填）</label>
+        <input type="text" placeholder="12345678" class="d-mail">
+      </form>
+      <a href="" class="d-order">下一步</a>
     </div>
-    <div class="billcontainer ">
-      <h4 class="h4">訂單摘要</h4>
-      <div class="bill-text">
-        <h4 class="h6 df jcsb ">小計 <span>NT$ 2,700</span> </h4>
-        <h4 class="h6 df jcsb ">運費 <span>NT$ 300</span> </h4>
-        <h4 class="h4 df jcsb ">總計 <span>NT$ 3,000</span> </h4>
-
+    <div class="info-contain df fdc">
+      <div class="billcontainer ">
+        <h4 class="h4">訂單摘要</h4>
+        <div class="bill-text">
+          <h4 class="h6 df jcsb ">小計 <span>NT$ 2,700</span> </h4>
+          <h4 class="h6 df jcsb ">運費 <span>NT$ 300</span> </h4>
+          <h4 class="h4 df jcsb ">總計 <span>NT$ 3,000</span> </h4>
+        </div>
       </div>
-      <a href="">
-        <h4 class="h4">結帳</h4>
-      </a>
+      <div class="buy-list">
+        <div class="b-listtitle">
+          購物清單
+        </div>
+        <div class="cart-contnet df fdr jcsb aic">
+          <img src="https://bit.ly/2QvsT63" alt="cake.png">
+          <div class="cart-info df fdr jcsa">
+            <div class="cartinfo-text">
+              <h3 class="h6">焦糖馬卡龍（2）</h3>
+              <h3 class="h6">NT$ 450</h3>
+            </div>
+          </div>
+        </div>
+        <div class="cart-contnet df fdr jcsb aic">
+          <img src="https://bit.ly/2zBDAxX" alt="cake.png">
+          <div class="cart-info df fdr jcsa">
+            <div class="cartinfo-text">
+              <h3 class="h6">焦糖馬卡龍（2）</h3>
+              <h3 class="h6">NT$ 450</h3>
+            </div>
+          </div>
+        </div>
+        <div class="cart-contnet df fdr jcsb aic">
+          <img src="https://bit.ly/2zKOP7w" alt="cake.png">
+          <div class="cart-info df fdr jcsa">
+            <div class="cartinfo-text">
+              <h3 class="h6">焦糖馬卡龍（2）</h3>
+              <h3 class="h6">NT$ 450</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
   </div>
+
+  </div>
+
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
   <footer class="footer">
     <footer class="footercontainer">
 
@@ -166,7 +188,6 @@
       </div>
     </div>
   </footer>
-
 </body>
 
 </html>

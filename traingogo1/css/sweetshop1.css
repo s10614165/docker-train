@@ -20,6 +20,7 @@
 .header-navcontainer {
     padding-bottom: 0px;
     align-items: center;
+    width: 30%;
 }
 
 .header-navcontainer>.h6 {
@@ -33,6 +34,10 @@
     right: 0px;
     width: 24px;
     height: 24px;
+}
+
+.header-navcontainer a {
+    text-decoration: none;
 }
 
 
@@ -407,11 +412,7 @@
         display: none;
     }
 
-    .header-navcontainer>.nav-dehaze {
-        display: inline-block;
-        min-width: 18px;
-        height: 12pt;
-    }
+
 
     .header-logonavcontainer {
         width: 69%;
@@ -420,6 +421,22 @@
     .shopcart-img {
         bottom: 0px;
         right: 0px;
+    }
+
+    .header-navcontainer a {
+        display: none;
+    }
+
+    .header-navcontainer a:last-child {
+        display: inline-block;
+        min-width: 18px;
+        height: 12pt;
+    }
+
+    .header-navcontainer a:last-child img {
+        display: inline-block;
+        min-width: 18px;
+        height: 12pt;
     }
 
     /* !-------header area-----------! */
