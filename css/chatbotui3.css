@@ -1,0 +1,430 @@
+    .df {
+      display: flex;
+    }
+
+    .db {
+      display: block;
+    }
+
+    .jcs {
+      justify-content: start;
+    }
+
+    .fdr {
+      flex-direction: row;
+    }
+
+    .fdc {
+      flex-direction: column;
+    }
+
+    .jcc {
+      justify-content: center;
+    }
+
+    .jcsb {
+      justify-content: space-between;
+    }
+
+    .jcsa {
+      justify-content: space-around;
+    }
+
+    .jcse {
+      justify-content: space-evenly;
+    }
+
+    .fww {
+      flex-wrap: wrap;
+    }
+
+    .fwwr {
+      flex-flow: wrap-reverse;
+    }
+
+    .aic {
+      align-items: center;
+    }
+
+    .acc {
+      align-content: center;
+    }
+
+    .ffrw {
+      flex-flow: row wrap;
+    }
+
+    .ffcw {
+      flex-flow: column wrap;
+    }
+
+    /* flex設定 END */
+
+    .h1 {
+      font-size: 48px;
+    }
+
+    .h2 {
+      font-size: 32px;
+    }
+
+    .h3 {
+      font-size: 24px;
+    }
+
+    .h4 {
+      font-size: 20px;
+    }
+
+    .h5 {
+      font-size: 18px;
+    }
+
+    .h6 {
+      font-size: 16px;
+    }
+        .h7 {
+          font-size: 12px;
+        }
+                .h29 {
+                  font-size: 29px;
+                }
+
+    .fwb {
+      font-weight: bold;
+    }
+
+    .tac {
+      text-align: center;
+    }
+
+    .ma {
+      margin: 0 auto;
+    }
+
+    .mab16 {
+      margin-bottom: 16px;
+    }
+
+    .mab8 {
+      margin-bottom: 8px;
+    }
+
+    .mab24 {
+      margin-bottom: 24px;
+    }
+
+    .mat24 {
+      margin-top: 24px;
+    }
+
+    .mat60 {
+      margin-top: 60px;
+    }
+
+    .mab48 {
+      margin-bottom: 48px;
+    }
+
+    .mat104 {
+      margin-top: 104px;
+    }
+
+    .mat214 {
+      margin-top: 214px;
+    }
+
+    .mab104 {
+      margin-bottom: 104px;
+    }
+
+    .mal32 {
+      margin-left: 32px;
+    }
+
+    .matb24 {
+      margin-top: 24px;
+      margin-bottom: 24px;
+    }
+
+    .mat16b24 {
+      margin-top: 16px;
+      margin-bottom: 24px;
+    }
+
+    .mal139 {
+      margin-left: 75px;
+    }
+
+    .matb16 {
+      margin-top: 24px;
+      margin-bottom: 24px;
+    }
+
+    .lineh {
+      line-height: 70px;
+    }
+
+    .wrap {
+      font-family: "Noto Sans TC";
+      max-width: 909px;
+      ;
+      margin: 0 auto;
+      /* background-color: bisque; */
+    }
+    .r {
+      background-color: red;
+    }
+   .b {
+      background-color: blue;
+    }
+
+    .g {
+      background-color: green;
+    }
+
+    .bn {
+      color: #56c4c5;
+    }
+    .fw{
+      color: #FFFFFF;
+    }
+    .btn{
+      background: #FFFFFF 0% 0% no-repeat padding-box;
+      border: 1px solid #56C4C5;
+      border-radius: 27px;
+      min-width: 128px;
+      height: 40px;
+    }
+    .btn2{
+      width: 136px;
+      height: 49px;
+      background: #56C4C5 0% 0% no-repeat padding-box;
+      border: 1px solid #56C4C5;
+      border-radius: 27px;
+      color: #FFFFFF;
+      font-size: 18px;
+    }
+    .btnr {
+      background-color: #FF5D50;
+    }
+    
+
+    /* 元件 */
+    body{
+      max-width: 100%;
+    }
+
+    .header{
+      background: #F7F9FD 0% 0% no-repeat padding-box;
+      border-radius: 0px 0px 0px 300px;
+      position: relative;
+      height: 470px;
+      width: 100% ;
+      margin:  0 auto;
+    }
+    .headernav{
+      flex-basis: 100%;
+      z-index: 2;
+    }
+    .headernav1{
+      display: none;
+    }
+    
+
+    .headernav img {
+      min-width: 218px;
+      height: 40px;
+    }
+    .imgarea{
+      position:absolute;
+      top: 0px;
+      right:0px;
+      z-index: 1;
+    }
+    .imgarea img:nth-child(2){
+      display: none;
+    }
+   .textarea{
+      z-index: 2;
+    } 
+   .headerwrap{
+      width: 90%;
+    }
+
+
+    .mainwrap{
+      max-width: 904px;
+    }
+
+    .container1{
+      margin-top: 48px;
+      width:80%;
+    }
+
+    .container1ul input:hover{
+      cursor:pointer
+    }
+
+    .container2card{
+      padding-bottom: 44px;
+      min-width:45%;;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 0px 2px 10px #00000014;
+        border-radius: 12px;
+    }
+
+    .numcard{
+      height: 108px;
+      min-width: 55%;
+      
+      background: #F5F5F5 0% 0% no-repeat padding-box;
+        border-radius: 12px;
+    }
+
+    .textarea img{
+      width: 20px;
+        height: 16px;
+    }
+    .textareacontain{
+      line-height: 16px;
+    }
+
+    .container2cardcotainer{
+      max-width: 396px;
+    }
+
+    .container2cardcotainer{
+      border-top: 1px black solid;
+      padding-top: 20px;
+    }
+    .container2{
+      margin-top: 54px;
+      width: 100%;
+    }
+    .textarea{
+      margin-bottom: 32px;
+    }
+
+    .numcardarea{
+      margin: 32px auto 32px auto;
+    }
+    .container2card>h3{
+      padding: 10px 0px;
+    }
+    .textareacontain{
+      height: 38px;
+    }
+
+    .container3{
+      margin-top: 100px;
+      width: 100%;
+    }
+    .container4area{
+      width: 100%;
+      
+        margin-top: 48px;
+    }
+        .container4area .contentbx {
+          background: #FFFFFF 0% 0% no-repeat padding-box;
+            box-shadow: 0px 2px 10px #00000014;
+            border-radius: 12px;
+          width: 90%;
+          padding: 16px 32px;
+    }
+    .content{
+     display: none;
+    }
+    .active .content{
+        display: block;
+    }
+    .lebel{
+      position: relative;
+    }
+    .lebel::before{
+      content: url('https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/icon_plus.svg');
+      position: absolute;
+      top:10%;
+      right: 20px;
+    }
+        .active .lebel::before {
+          content: url('https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/icon_minus.svg');
+          position: absolute;
+          top: 10%;
+          right: 20px;
+        }
+      .container4area div:nth-child(2) {
+        margin: 16px 0px;}
+
+        .footer{
+          background: #F5F5F5 0% 0% no-repeat padding-box;
+          width: 100%;
+          margin-top: 100px;
+          padding: 16px 0px;
+        }
+        
+    @media (max-width: 576px) {
+          
+      .headernav{
+        display: none;
+      }
+      .imgarea img:nth-child(1){
+        display: none;
+      }
+            .imgarea {
+              display: inline;
+              position: absolute;
+              top: 0px;
+              left: 0px;
+              z-index: 1;
+            }
+      
+      .imgarea img:nth-child(2) {
+        display: inline;
+        width: 70%;
+       
+            }
+      .header{
+        height: 470px;
+        margin: 0 auto;
+        
+      }
+      .headernav1{
+        display: flex;
+        border-bottom: 2px #FFD153 solid;
+          margin: 0px;
+          padding: 17px ;
+          height: auto;
+          max-width: 100%;
+      }
+            .headernav1 img {
+              min-width: 218px;
+              height: 40px;
+            }
+            .textarea{
+              margin-top: 48px;
+            }
+
+            .mainwrap{
+              margin-top: 60px;
+              max-width: 90%  ;
+            }
+            .container1{
+              width: 100%;
+              overflow-x:auto;
+             
+              
+              
+            }
+            .container1ul{
+              max-width: 100%;
+              justify-content: flex-start;
+              
+            }
+            .container2card:nth-child(2)
+            {
+              margin-top: 24px
+              ;
+            }
+    }
+    
