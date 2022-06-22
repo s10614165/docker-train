@@ -97,7 +97,7 @@
 
 .mail-img {
   background: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/student-week1/mail-24px.png")no-repeat;
-  background-position: center left;
+  background-position: center left 20px;
   background-size: 25px 25px;
   height: 56px;
   width: 100%;
