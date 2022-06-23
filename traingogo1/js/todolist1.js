@@ -59,7 +59,7 @@ listul.addEventListener("click", function (e) {
       }
 
     })
-    console.log(data);
+    // console.log(data);
     addlist(data);
   }
   // 增加斜線 完成
