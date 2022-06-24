@@ -112,27 +112,3 @@ function addlist(ary) {
 
   todonum.textContent = `${finshdata}個代辦事項`;
 }
-
-// function checklist(ary) {
-//   let str = '';
-//   ary.forEach(function (item, index) {
-//     if (item.Ischeck) {
-//       str += `<li class="listli"><input type="checkbox" name="" class="donebox" id="donebox" data-num=${index} checked=checked> <label for="donebox" class="lilabel">${item.content}</label> <input type="button" value=""
-//               class= "vector" data-num=${index}></li >`;
-//     } else {
-//       str += `<li class="listli"><input type="checkbox" name="" class="donebox" id="donebox" data-num=${index}><label for="donebox" class="lilabel">${item.content}</label> <input type="button" value=""
-//               class= "vector" data-num=${index}></li >`;
-//     }
-
-
-
-//     // console.log(str);
-//     // console.log(ary);
-//     // console.log(item.content);
-//     // console.log(data);
-//   });
-//   console.log(str);
-//   listul.innerHTML = str;
-
-// }
-
