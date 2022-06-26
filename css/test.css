@@ -1,0 +1,85 @@
+/* span{
+  margin-right: 10px;
+  font-size: 10px;
+  border: 1.5px solid black;
+  background-color: blue;
+  color: aliceblue;
+  min-width: 30px;
+  text-align: center;
+  display: inline-block;
+  
+}
+
+a{
+  text-decoration: none;
+  font-size: 1px;
+  color: black;
+}
+.newlist:hover{
+  background-color: beige;
+}
+.newlist{
+  margin: 10px 0 0 10px;
+} */
+body{
+  background-color: bisque;
+}
+
+
+.SelectMenu{
+  width: 380px;
+  margin: 150px auto;
+  
+}
+.SelectMenu .selectbtn{
+  display: flex;
+  height: 55px;
+  background:#fff;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 400px;
+  border-radius: 8px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 0  5px rgba(0,0,0,0.5);
+}
+
+.selectbtn i{
+  font-size: 30px;
+}
+
+.SelectMenu .opetions{
+  position: relative;
+  padding: 20px;
+  margin-top: 10px;
+  background:#fff;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+
+}
+.opetions .option{
+  display: flex;
+  height: 55px;
+  cursor:pointer;
+  padding:  0 16px;
+  border-radius: 8px;
+  align-items: center;
+  background: #fff;
+}
+
+.opetions .option:hover{
+  background:#f2f2f2;
+}
+.option i{
+  font-size: 25px;
+  margin-right: 12px;
+
+}
+.option .optiontext{
+
+}
+
+.SelectMenu.active .opetions{
+  display: none;
+}

@@ -1,0 +1,153 @@
+h1{
+  font-size: 28px;
+}
+h2{
+  font-size: 26px;
+}
+h3{
+  font-size: 22px;
+}
+
+ul{
+  list-style:inside ;
+  
+}
+.profile{
+  /* background-color: antiquewhite; */
+  flex: 1;
+  padding: 20px;
+  box-sizing: content-box;
+  line-height: 30px;
+
+}
+.profile i {
+  font-size: 27px;
+}
+
+
+
+.profile img {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+}
+/* 個人檔案 */
+.trait{
+  /* background-color: aqua; */
+  
+  flex: 4;
+ }
+ .traitul li{
+   line-height: 50px;
+ }
+ .trait article{
+   line-height: 30px;
+ }
+ .trailandprofile {
+   display: flex;
+ }
+ /* 個人特質 */
+.skill{
+  /* background-color: aquamarine; */
+  display: flex;
+  flex-flow: column wrap;
+  width: 100%;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.skilllay{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  /* background-color: brown; */
+}
+.skillul{
+  width: 30%;
+  /* background-color: azure; */
+  }
+.skillul ul{
+  border-top: 1px black solid;
+
+}
+.skill h3 i {
+  font-size: 30px;
+}
+.skill h3{
+  vertical-align: middle;
+}
+.skillul li{
+  font-size: 18px;
+  margin-top: 10px;
+}
+.skill h2{
+  font-size: 22px;
+  padding-left: 10%;
+}
+/* 技能 */
+.learnexp{
+  margin-top: 20px;
+  background-color: bisque;
+}
+.learnexp article{
+  line-height: 30px;
+}
+.learnexppic{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row ;
+  /* background-color: rgba(72, 255, 0, 0.401); */
+  justify-content: space-around;
+ 
+}
+.pic img {
+  width: 309px;
+  height: 372px;
+  background-color: red;
+}
+/* 學習經歷 */
+.workexp{
+  /* background-color: blue; */
+  width: 100%;
+  margin-top: 20px;
+}
+.workexpditail{
+  display: flex;
+  gap: 10px;
+}
+
+.left{
+  list-style: none;
+  
+}
+.left:first-child{
+  margin-top: 10px;
+  /* background-color: rebeccapurple; */
+}
+.workexpditail:last-child{
+  border-top: 1px solid black;
+  margin-top: 10px;
+}
+.right{
+  line-height: 30px;
+}
+.workexpditail:last-child .right:last-child{
+  margin-left: 20px;
+}
+/* 工作經歷 */
+.makeskill{
+  /* background-color: brown; */
+  margin-top: 20px;
+  line-height: 30px;
+}
+.makesill h2{
+  margin-top: 6660px;
+}
+/* 技能養成 */
+.wrap{
+  display: flex;
+  flex-flow:row wrap;
+  box-sizing: border-box;
+  margin:50px;
+}
+/* 包裹全體 */
+

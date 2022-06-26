@@ -202,6 +202,7 @@
     height: 1px;
     position: absolute;
     top: 70%;
+
     width: 100%;
 }
 
@@ -241,6 +242,7 @@
 .billcontainer {
     width: 100%;
     max-width: 300px;
+
 }
 
 .cart-title {
@@ -437,79 +439,100 @@
     padding: 16px 0px;
     font-size: 24px;
     color: #8DA291;
+
 }
 
 @media (max-width:375px) {
     .header {
         max-width: 100%;
     }
+
     .mlogo-img {
         display: inline-block;
         min-width: 114px;
     }
+
     .header-imgcontainer>.pclogo-img {
         display: none;
     }
+
     .header-navcontainer {
         order: 1;
     }
+
     .header-imgcontainer {
         order: 2;
     }
+
     .header-navcontainer>.h6 {
         display: none;
     }
+
     .header-navcontainer>.nav-dehaze {
         display: inline-block;
         min-width: 18px;
         height: 12pt;
     }
+
     .header-logonavcontainer {
         width: 69%;
     }
+
     .shopcart-img {
         bottom: 0px;
         right: 0px;
     }
+
     .header-navcontainer a {
         display: none;
     }
+
     .header-navcontainer a:last-child {
         display: inline-block;
         min-width: 18px;
         height: 12pt;
     }
+
     .header-navcontainer a:last-child img {
         display: inline-block;
         min-width: 18px;
         height: 12pt;
     }
+
     /* !-------header area-----------! */
     /* footer */
     .subontainerwarp {
         flex-direction: column;
     }
+
     .subtext {
         width: 100%;
     }
+
     .emailtext {
         width: 100%;
         margin-bottom: 30px;
     }
+
     .infovertical-img {
         display: none;
     }
+
     .info-text {
         width: 100%;
         margin-bottom: 20px;
     }
+
     /* footer */
+
     .info-contain {
         display: none;
     }
+
     .diliver-contain {
         width: 100%;
     }
+
     .check-wrap {
         width: 100%;
         margin: 10px 0px 0px;

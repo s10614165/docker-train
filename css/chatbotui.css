@@ -1,0 +1,226 @@
+  section{
+    display: block;
+  }
+
+  .h1{
+    font-size: 48px;
+  }
+
+  .h2{
+    font-size: 32px;
+    
+  }
+  .h3{
+    font-size: 24px;
+  }
+  .h4{
+    font-size: 18px;
+  }
+  .h5{
+    font-size: 16px;
+  }
+  body{
+    margin: 0 auto;
+    display: block;
+  }
+  .wrap{
+    display: flex;
+    margin: 0 auto;
+    flex-flow: column wrap;
+    font-family: 'Noto Sans TC';
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    
+  }
+  .programbtn{
+    width: 136px;
+    height: 49px;
+    border: 1px solid #56C4C5;
+    border-radius: 27px;
+    background: #56C4C5 0% 0% no-repeat padding-box;
+    font-size: 18px;
+  }
+  .programbtn:last-child {
+          text-align: center;
+          margin: 0 auto;
+          
+  }
+ 
+  /* 全域設定 */
+
+  .platform{
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    justify-content: center;
+    width: 90%;
+    column-gap: 126px;
+    
+    margin:46px 0 100px 0;
+  }
+  @media (max-width:500px) {
+    .patformpic{
+      width: 90%;
+      margin-top: 20px;
+      
+    }
+    .characterpic{
+      margin-top: 20px;
+      width: 95%;
+    }
+        .characterpic img {
+         width: auto;
+         height: auto;
+    
+          border-radius: 12px 12px 0 0;
+        }
+  }
+  .patformpic{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+    text-align: center;
+  }
+  .patformpic img{
+    height: 90px;
+    width: 90px;
+    
+  }
+  .patformpic img+h3{
+    margin: 24px 0 24px 0;
+  }
+  main+h2{
+    text-align: center;
+  }
+  /* 平台 */
+
+    /* 角色 */
+
+  .character{
+    margin-top: 48px;
+    display: flex;
+    flex-flow: column wrap;
+    margin: 0 139px 0 139px;
+    
+    justify-content: center;
+    /* background-color: aqua; */
+    text-align: center;
+  }
+  .character h2+span{
+    margin:16px 0  48px 0;
+    font-size: 20px;
+    
+  }
+  .characterpiccard{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    column-gap: 16px;
+  }
+
+  .characterpic{
+    height: 388px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+      box-shadow: 0px 2px 10px #00000014;
+      border-radius: 12px
+
+    }
+  .characterpic img{
+    width: 263px;
+    height: 263px;
+    
+    border-radius: 12px 12px 0 0 ;
+  }
+  .characterpic span{
+    display: block;
+    margin: 16px 0 16px 0;
+  }
+  /* 角色 */
+  .program{
+    display: flex;
+    flex-wrap: wrap-reverse ;
+    
+    margin: 100px 0 100px 0;
+    justify-content: space-around;
+  }
+  .programpic{
+   width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 28px;
+    column-gap: 47px;
+    margin-left: 132px;
+    /* background-color: aqua; */
+    
+    
+    
+  }
+  .programpicContent{
+      width: 30%;
+      background: #FFFFFF 0% 0% no-repeat padding-box;
+      box-shadow: 0px 2px 10px #00000014;
+      border-radius: 12px;
+      padding:32px 48px 32px 32px ;
+
+  }
+  .programpicContent img{
+    width: 50px;
+    height: 51px;
+    
+  }
+
+ .programContenttext{
+   display: block;
+   margin-top: 16px;
+   /* background-color: aqua; */
+
+ }
+ .programpicContent h4{
+   margin-top: 24px;
+   
+ }
+  
+  .programContent{
+    margin: 165px 0 164px 137px;
+    margin-right: 188px;
+    display: flex;
+    flex-flow: column wrap;
+  }
+  .programContent h2{
+    margin-bottom: 16px;
+  }
+  .programContent span{
+    margin:16px 0 16px 0;
+  }
+    .dot {
+      display:inline-block;
+      width: 86px;
+      height: 86px;
+      border-radius: 50%;
+      box-shadow: 0 2px 10px #00000014;
+      margin: 32px  0 32px;
+      background-color:white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+    
+      
+    }
+  /* 方案內容 */
+  .comment{
+    display: flex;
+    /* flex-flow: column wrap; */
+    
+    margin-bottom: 100px;
+  }
+  
+  /* 評論 */
+
+  /* footer{
+    background-size: 100% auto;
+    background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/footer_sm.svg");
+    display:block;
+    height: 100px;
+  } */
