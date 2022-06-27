@@ -11,7 +11,7 @@ console.log(todonum);
 addbtn.addEventListener("click", function () {
   if (listinput.value === '') {
   } else {
-    data.push({ content: listinput.value });
+    data.push({ content: listinput.value, Ischeck: false });
     listinput.value = '';
     addlist(data);
 
@@ -48,6 +48,7 @@ listul.addEventListener("click", function (e) {
         item.Ischeck = false;
       }
     })
+    console.log(data)
     addlist(data);
     // console.log(data);
   }
